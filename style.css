@@ -47,3 +47,56 @@ html,body{
 #nav i{
     font-size: 25px;
 }
+
+#home #homemain{
+    width: 100%;
+    padding: 15vw 15vw;
+}
+
+#homemain h1{
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+
+.heading{
+    display: flex;
+    gap: 40px;
+}
+
+#homemain .heading h1{
+    font-size: 7vw;
+    font-weight: 800;
+    letter-spacing: -3px;
+    line-height: 1;
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+}
+
+#homelast {
+    padding: 2vw 15vw;
+    width: 80%;
+}
+
+#homelast p{
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+
+#homelast p::selection{
+    color: #fff;
+    background-color: #000;
+}
+
+#featured{
+    padding: 10vw 15vw;
+}
+
+.fheading h1{
+    font-size: 4vw;
+    font-weight: 400;
+}
+
+.fheading h1:nth-child(2){
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+}
