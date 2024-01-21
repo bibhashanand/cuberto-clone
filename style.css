@@ -100,3 +100,72 @@ html,body{
     color: transparent;
     -webkit-text-stroke: 1px #000;
 }
+
+#fimages{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    margin-top: 5vw;
+    width: 100%;
+}
+
+#fleft{
+    overflow: hidden;
+    width: 45%;
+    height: inherit;
+}
+
+.fleftelem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: inherit;
+}
+
+.fleftelem h1{
+    font-size: 2.5vw;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 1.5vw 0;
+}
+
+.fleftelem h3{
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+
+.fleftelem h4{
+    opacity: .4;
+}
+
+
+
+#fright{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 45%;
+    height: inherit;
+}
+
+#fright .images{
+    width: 90%;
+    height: 90%;
+    background-color: red;
+}
+
+#btndiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btndiv button{
+    padding: 1.3vw 2.5vw;
+    border-radius: 100px;
+    background-color: #fff;
+    border: 2px solid rgb(212, 212, 212);
+    font-size: 1vw;
+    font-weight: 500;
+}
