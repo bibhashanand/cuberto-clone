@@ -10,10 +10,6 @@ html,body{
     height: 100%;
 }
 
-*::selection{
-    color: #fff;
-    background-color: #000;
-}
 
 #main{
     width: 100%;
@@ -32,6 +28,7 @@ html,body{
     width: 100%;
     padding: 30px 50px;
 }
+
 
 #nav img{
     width: 100px;
@@ -90,24 +87,25 @@ html,body{
     font-weight: 400;
 }
 
-/* #homelast p::selection{
+#homelast p::selection{
     color: #fff;
     background-color: #000;
-} */
+}
 
 #featured{
     padding: 3vw 15vw;
-    background-color: rgb(255, 246, 235);
+    background-color: rgb(0, 0, 0);
 }
 
 .fheading h1{
     font-size: 4vw;
     font-weight: 400;
+    color: #fff;
 }
 
 .fheading h1:nth-child(2){
-    color: transparent;
-    -webkit-text-stroke: 1px #000;
+    color: black;
+    -webkit-text-stroke: 1px #ffffff;
 }
 
 #fimages{
@@ -130,6 +128,7 @@ html,body{
     justify-content: center;
     width: 100%;
     height: inherit;
+    color: #fff;
 }
 
 .fleftelem h1{
@@ -196,6 +195,10 @@ html,body{
     font-size: 1.5vw;
     margin-top: 2vw;
     font-weight: 400;
+}
+#dev p::selection{
+    color: #fff;
+    background-color: #000;
 }
 
 #slides{
