@@ -4,7 +4,7 @@ This project is a clone of the Cuberto website. It has been developed using HTML
 
 ### Preview
 
-
+https://github.com/bibhashanand/cuberto-clone/assets/102620534/f480123d-acd0-421d-84ad-26205fff3e84
 
 ### Features
 
