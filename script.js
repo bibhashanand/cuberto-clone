@@ -1,6 +1,6 @@
 Shery.mouseFollower();
 Shery.makeMagnet(".magnet");
-Shery.hoverWithMediaCircle("#homemain",{videos: ["./hero.mp4"]});
+Shery.hoverWithMediaCircle(".hvr",{videos: ["./assets/hneg.mp4"]});
 
 gsap.to(".fleftelem",{
     scrollTrigger: {
@@ -17,8 +17,8 @@ gsap.to(".fleftelem",{
 
 let sections = document.querySelectorAll(".fleftelem");
 Shery.imageEffect(".images", {
-    style: 5,
-    config: {onMouse: {value:1}},
+    style: 4,
+    config: {onMouse: {value:1}, "zindex":{"value":"999999","range":[-9999999,9999999]}},
     slideStyle: (setScroll) => {
         sections.forEach(function(section, index){
             ScrollTrigger.create({
@@ -32,3 +32,4 @@ Shery.imageEffect(".images", {
         });
     },
   });
+
